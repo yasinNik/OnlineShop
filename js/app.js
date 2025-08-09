@@ -281,7 +281,7 @@ productsContainer.addEventListener("click", (e) => {
 
   const productId = article.getAttribute("data-id");
   if (productId) {
-    window.location.href = `product.html?id=${productId}`;
+    window.location.href = `./public/product/product.html?id=${productId}`;
   }
 });
 
